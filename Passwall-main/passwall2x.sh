@@ -79,7 +79,7 @@ opkg install wget-ssl
 sleep 1
 opkg install unzip
 sleep 2
-opkg install luci-app-passwall2
+opkg install luci-app-passwall2 --force-checksum
 sleep 3
 opkg install kmod-nft-socket
 sleep 2
