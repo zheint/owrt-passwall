@@ -39,7 +39,7 @@ if [ "$SNNAP" == "SNAPSHOT" ]; then
 
 echo -e "${YELLOW} SNAPSHOT Version Detected ! ${NC}"
 
-rm -f passwalls.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/Passwall/main/passwalls.sh && chmod 777 passwalls.sh && sh passwalls.sh
+rm -f passwalls.sh && wget https://raw.githubusercontent.com/zheint/owrt-passwall/refs/heads/main/Passwall-main/passwalls.sh && chmod 777 passwalls.sh && sh passwalls.sh
 
 exit 1
 
@@ -105,12 +105,23 @@ sleep 2
 
 >/etc/banner
 
-echo "    ___    __  ___________  __  ______  __________ ___________   __
-   /   |  /  |/  /  _/ __ \/ / / / __ \/ ___/ ___// ____/  _/ | / /
-  / /| | / /|_/ // // /_/ / /_/ / / / /\__ \\__ \ / __/  / //  |/ /
- / ___ |/ /  / // // _  _/ __  / /_/ /___/ /__/ / /____/ // /|  /
-/_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/                                                                                                
-telegram : @AmirHosseinTSL" >> /etc/banner
+echo "    :::'###::::'########::'####:'########:'##:::::::                                       
+::'## ##::: ##.... ##:. ##:: ##.....:: ##:::::::                                       
+:'##:. ##:: ##:::: ##:: ##:: ##::::::: ##:::::::                                       
+'##:::. ##: ########::: ##:: ######::: ##:::::::                                       
+ #########: ##.. ##:::: ##:: ##...:::: ##:::::::                                       
+ ##.... ##: ##::. ##::: ##:: ##::::::: ##:::::::                                       
+ ##:::: ##: ##:::. ##:'####: ########: ########:                                       
+..:::::..::..:::::..::....::........::........::                                       
+'##::::'##:'########::'##::: ##:::::'######::'########::'#######::'########::'########:
+ ##:::: ##: ##.... ##: ###:: ##::::'##... ##:... ##..::'##.... ##: ##.... ##: ##.....::
+ ##:::: ##: ##:::: ##: ####: ##:::: ##:::..::::: ##:::: ##:::: ##: ##:::: ##: ##:::::::
+ ##:::: ##: ########:: ## ## ##::::. ######::::: ##:::: ##:::: ##: ########:: ######:::
+. ##:: ##:: ##.....::: ##. ####:::::..... ##:::: ##:::: ##:::: ##: ##.. ##::: ##...::::
+:. ## ##::: ##:::::::: ##:. ###::::'##::: ##:::: ##:::: ##:::: ##: ##::. ##:: ##:::::::
+::. ###:::: ##:::::::: ##::. ##::::. ######::::: ##::::. #######:: ##:::. ##: ########:
+:::...:::::..:::::::::..::::..::::::......::::::..::::::.......:::..:::::..::........::                                                                                              
+telegram : @arielvpnstore" >> /etc/banner
 
 sleep 1
 
@@ -233,7 +244,7 @@ uci set system.@system[0].timezone='<+0330>-3:30'
 
 uci commit system
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=By-Arielvpn
 
 uci commit system
 
@@ -260,7 +271,7 @@ my.irancell.ir'
 uci commit
 
 echo -e "${YELLOW}** Installation Completed ** ${ENDCOLOR}"
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With Love By : Arielvpn ${ENDCOLOR}"
 
 
 rm passwallx.sh 2> /dev/null
