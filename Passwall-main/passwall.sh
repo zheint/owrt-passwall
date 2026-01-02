@@ -105,9 +105,11 @@ sleep 2
 
 >/etc/banner
 
-echo "          __     ___               __       
+echo "   
+      __     ___               __       
  /\  |__) | |__  |       \  / |__) |\ | 
 /~~\ |  \ | |___ |___     \/  |    | \| 
+                                        
                                                                                                                                      
 telegram : @arielvpnstore" >> /etc/banner
 
