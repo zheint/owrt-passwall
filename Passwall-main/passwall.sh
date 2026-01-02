@@ -39,7 +39,7 @@ if [ "$SNNAP" == "SNAPSHOT" ]; then
 
 echo -e "${YELLOW} SNAPSHOT Version Detected ! ${NC}"
 
-rm -f passwalls.sh && wget https://raw.githubusercontent.com/zheint/owrt-passwall/refs/heads/main/Passwall-main/passwalls.sh && chmod 777 passwalls.sh && sh passwalls.sh
+rm -f passwalls.sh && wget https://raw.githubusercontent.com/zheint/owrt-passwall/refs/heads/main/Passwall-main/passwallx.sh && chmod 777 passwallx.sh && sh passwallx.sh
 
 exit 1
 
