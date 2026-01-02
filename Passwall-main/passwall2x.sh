@@ -99,9 +99,11 @@ opkg install ipset
 
 >/etc/banner
 
-echo "         __     ___               __       
+echo " 
+      __     ___               __       
  /\  |__) | |__  |       \  / |__) |\ | 
 /~~\ |  \ | |___ |___     \/  |    | \| 
+                                        
                                                                                                                                       
 telegram : @Arielvpnstore" >> /etc/banner
 
